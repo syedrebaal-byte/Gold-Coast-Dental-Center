@@ -1,0 +1,6 @@
+{
+  "name": "Gold Coast Dental Center | Fort Lauderdale",
+  "description": "Premier private dental practice in Fort Lauderdale led by Dr. Jerry Karedan, DMD. Delivering personalized cosmetic dentistry, dental implants, Invisalign, and relationship-based restorative oral care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

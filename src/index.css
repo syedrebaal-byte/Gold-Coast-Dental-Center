@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c5a880;
+  --color-gold-600: #a8895b;
+  --color-sand-50: #faf9f6;
+  --color-sand-100: #f4efe8;
+  --color-sand-200: #ebe3d7;
+  --color-navy-800: #132a4a;
+  --color-navy-900: #0b1d3a;
+  --color-navy-950: #071224;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #faf9f6;
+  color: #1c1917;
+  overflow-x: hidden;
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Custom smooth slider for before/after comparison */
+.slider-handle {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4), 0 8px 24px -4px rgba(0, 0, 0, 0.3);
+}
